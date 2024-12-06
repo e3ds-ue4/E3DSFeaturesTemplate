@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{AB9E64FB-4785-EE1D-F58A-4C907FA24650}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "E3DSFeaturesTemplate",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PixelStreaming",
+			"Enabled": true
+		},
+		{
+			"Name": "WebBrowserWidget",
+			"Enabled": true
+		},
+		{
+			"Name": "E3DSAutomationTools",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/799969b942d34725b0c3de7b4e8203aa"
+		}
+	],
+	"TargetPlatforms": [
+		"Windows"
+	]
+}
